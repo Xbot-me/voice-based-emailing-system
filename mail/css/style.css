@@ -1,0 +1,27 @@
+html, body { font-family: helvetica; }
+body { text-align: center; }
+h1 { margin: 0px 0px 0px 0px;}
+
+#alertInfo { color: red; }
+
+#results {
+    margin: 0px auto;
+    width: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+    min-height: 150px;
+}
+select{
+    display:none
+}
+.btn{
+    width: 100vw;
+    height:100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
